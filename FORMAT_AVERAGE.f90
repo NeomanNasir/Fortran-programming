@@ -1,0 +1,12 @@
+PROGRAM FORMAT_AVERAGE
+        READ(5,11)S1,S2,S3
+     11 FORMAT(3F5.2)
+        WRITE(6,22)S1,S2,S3
+     22 FORMAT(1X,'THE VAUES ARE',2X,3(F5.2,1X))
+        AVR=(S1+S2+S3)/3.0
+        WRITE(6,33)AVR
+     33 FORMAT(1X,'THE AVERAGE IS',2X,F5.2)
+        STOP
+        END
+
+

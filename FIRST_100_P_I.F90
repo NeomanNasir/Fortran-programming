@@ -1,0 +1,6 @@
+PROGRAM FIRST_100_P_I
+    DO 500 I=1,100
+        PRINT*,I
+500 CONTINUE
+    STOP
+    END

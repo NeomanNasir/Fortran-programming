@@ -1,0 +1,9 @@
+PROGRAM SUM_1_TO_30
+    ISUM=0
+    DO 300 I=1,30
+        ISUM=ISUM+I
+
+300 CONTINUE
+    PRINT*,ISUM
+    STOP
+    END
