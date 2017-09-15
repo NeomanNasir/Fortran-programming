@@ -1,4 +1,4 @@
-PROGRAM roots_of_Quadratic_eqation
+PROGRAM roots_of_Quadratic_eqation_GOTO_and_logical_IF.
     READ*,A,B,C
     PRINT*,'THE COEFFICIENTS ARE ',A , B, C
     D = (B*B) - 4.0*A*C
