@@ -1,0 +1,12 @@
+PROGRAM area_of_circle
+    PRINT*, 'ENTER THE RADIUS OF THE CIRCLE'
+    READ*, R
+
+    AREA = 3.1416 * (R**2)
+    CRCMF = 2 * 3.1416 * R
+
+    PRINT*, 'AREA OF THE CIRCLE =', AREA
+    PRINT*, 'CIRCUMFERENCE OF THE CIRCLE =', CRCMF
+
+    STOP
+    END
