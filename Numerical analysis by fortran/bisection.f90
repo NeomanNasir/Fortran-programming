@@ -5,6 +5,9 @@ program bisection
     real :: a, b, er, m, m_pr, f
     print *, 'Enter a and b: '
     read *, a, b
+    !if you want read values from a file then at first, crate a file like br.txt 
+    !then input the values in the file 
+    !then uncomment next all file statements below and comment read * and print * statements.
     !open(1, file = 'bi.txt', status = 'old')
     !read(1, *) a, b
 
