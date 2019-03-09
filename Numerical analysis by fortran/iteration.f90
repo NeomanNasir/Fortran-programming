@@ -1,6 +1,5 @@
 
 program iteration
-    implicit none
 
     real :: er, x0, f, g, gd, x1
     print *, 'Enter the initial value x0: '
