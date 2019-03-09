@@ -1,6 +1,5 @@
 
 program newton_rophson
-    implicit none
 
     real :: er, x0, f, fd, x1
     print *, 'Enter the initial value x0: '
