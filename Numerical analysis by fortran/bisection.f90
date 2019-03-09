@@ -1,6 +1,5 @@
 
 program bisection
-    implicit none
 
     real :: a, b, er, m, m_pr, f
     print *, 'Enter a and b: '
