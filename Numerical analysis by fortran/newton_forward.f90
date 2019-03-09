@@ -1,6 +1,5 @@
 
 program newton_forward
-    implicit none
 
     integer :: n, i, j, fact
     real :: x(20), y(20, 20), u_cal, u, a, s
