@@ -10,7 +10,6 @@ program euler_method
     n = 50
     h = (xn - x0)/n
 
-    a = x0
     do i = 1, n
         y1 = y0 + h*log(x0 + y0)
         print *, x0, y1
