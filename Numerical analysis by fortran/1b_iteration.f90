@@ -33,7 +33,7 @@ end function g
 function gd(x)
     implicit none
     real :: x, gd
-    gd = (2*sin(x) - log(2**x + 2)*2**x)/(6 - 2*cos(x) - 2**(-x))
+    gd = (2*sin(x) - 2**(-x) * log(2))/(6 - 2*cos(x) - 2**(-x))
 end function gd
 
 
